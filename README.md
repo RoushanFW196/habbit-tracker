@@ -20,6 +20,7 @@ A full-stack habit tracker app that encourages users to develop and maintain hab
    npm run dev
 
 2. setup for the frontend:
-cd dev
-npm install
-npm run dev
+    ```bash
+   cd dev
+   npm install
+   npm run dev
