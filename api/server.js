@@ -13,4 +13,12 @@ app.use(express.json());
 app.use("/api/auth", authRoutes);
 app.use("/api/habits", habbitRoutes);
 console.log("hello world");
+
+
+
+
+
+
+
+
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
