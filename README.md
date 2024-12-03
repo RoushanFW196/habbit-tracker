@@ -10,7 +10,7 @@ A full-stack habit tracker app that encourages users to develop and maintain hab
 
 ## Project Structure
 - `api/`: Backend (Node.js, Express, MongoDB).
-- `ui/`: Frontend (React.js, Tailwind CSS).
+- `dev/`: Frontend (React.js, Tailwind CSS).
 
 ## Quick Start
 1. Setup the backend:
