@@ -6,7 +6,6 @@ const router = express.Router();
 // Create Habit
 router.post("/", async (req, res) => {
     const { name, user } = req.body;
-
     try {
         const habit = new Habit({ name, user });
         await habit.save();

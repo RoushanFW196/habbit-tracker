@@ -1,15 +1,17 @@
-import { useState } from 'react'
+import { useState } from "react";
 
-import './App.css'
+import "./App.css";
+import Navbar from "./components/Navbar";
+import WelComeUser from "./components/WelComeUser";
+import { Outlet } from "react-router";
 
 function App() {
-
-
   return (
     <>
-      <h1>habbit tracker</h1>
+      <Navbar user={{ name: "roushan" }} />
+      <Outlet />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
